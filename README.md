@@ -1,3 +1,6 @@
+
+# 架构储备
+
 # <p align="center"> AndroidBaseFrameMVVM 🐽</p>
 
 > &emsp;&emsp;**AndroidBaseFrameMVVM** 是一个Android工程框架，所使用技术栈为：**组件化、Kotlin、MVVM、Jetpack、Repository、Kotlin-Coroutine-Flow**，本框架既是一个可以开箱即用的工程框架基础层，也是一个很好的学习资源，文档下面会对框架中所使用的一些核心技术进行阐述。该框架作为个人技术积累的产物，会一直更新维护，如果有技术方面的谈论或者框架中的错误点，可以在 **GitHub** 上提 **Issues**，我会及时进行回应。希望这个框架项目能给大家带来帮助，喜欢可以Start🌟。

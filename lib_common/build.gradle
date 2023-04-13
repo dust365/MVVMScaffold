@@ -4,7 +4,7 @@
 
 apply from: '../base_lib.gradle'
 
-import com.quyunshuo.androidbaseframemvvm.buildsrc.*
+import com.live.lsg.buildsrc.*
 
 android {
 
@@ -17,13 +17,13 @@ android {
     }
 
     resourcePrefix "common_"
-    namespace 'com.quyunshuo.androidbaseframemvvm.common'
+    namespace 'com.live.common'
 }
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
+    api project(path: ':lib_core')
 
-    api project(path: ':lib_base')
 
     api DependencyConfig.JetPack.HiltCore
 

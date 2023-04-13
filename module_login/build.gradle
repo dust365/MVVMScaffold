@@ -1,0 +1,6 @@
+apply from: '../base_module.gradle'
+
+android {
+    resourcePrefix "login_"
+    namespace 'com.live.login'
+}

@@ -2,7 +2,7 @@
 //******** module模块的公共脚本配置 *********
 //****************************************
 
-import com.quyunshuo.androidbaseframemvvm.buildsrc.*
+import com.live.lsg.buildsrc.*
 
 if (ProjectBuildConfig.isAppMode) {
     apply plugin: 'com.android.application'
@@ -90,6 +90,8 @@ dependencies {
     androidTestImplementation DependencyConfig.AndroidX.TestExtJunit
     androidTestImplementation DependencyConfig.AndroidX.TestEspresso
     implementation DependencyConfig.JetPack.HiltCore
+    implementation DependencyConfig.JetPack.NavigationFagment
+    implementation DependencyConfig.JetPack.NavigationUI
 
     kapt DependencyConfig.GitHub.ARouteCompiler
     kapt DependencyConfig.GitHub.EventBusAPT
